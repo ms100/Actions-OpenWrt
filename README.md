@@ -1,3 +1,13 @@
+```
+wget https://downloads.openwrt.org/releases/24.10.3/targets/mediatek/filogic/config.buildinfo -O .config
+
+→ LuCI → 2. Modules → Translations → <*> Chinese Simplified (zh_Hans）
+→ LuCI → 3. Applications → <*> luci-app-openclash
+→ LuCI → 3. Applications → <*> luci-app-upnp
+→ LuCI → 4. Themes → <*> luci-theme-argon
+→ Base system → < > dnsmasq
+```
+
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # Actions-OpenWrt

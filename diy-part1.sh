@@ -14,5 +14,8 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+git clone -q --depth 1 -b $THEME_ARGON_BRANCH https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone -q --depth 1 -b $OPEN_CLASH_BRANCH https://github.com/vernesong/OpenClash.git package/luci-app-openclash
